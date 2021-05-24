@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "desenho-mapa",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
