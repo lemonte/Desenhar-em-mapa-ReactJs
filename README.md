@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Desenhar no mapa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido para que o usuário possa desenhar livremente figuras geométricas no mapa, além de poder atribuir cores personalizadas para cadas deseho.
+Com o projeto o usuário pode fazer mapeamento de território entre outras coisas.
 
-## Available Scripts
+## Para executar
 
-In the project directory, you can run:
+Baixe o projeto em sua máquina e rode o comando
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Sera executado o projeto em modo de desenvolvimento.\
+Irá abrir o navegador na URL [http://localhost:3000](http://localhost:3000).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A página irá recarregar sempre que fizer uma atualização no projeto.\
+Você pode acompanhar os erros no console.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para gerar um build de uma versão basta executar o comando yarn build e será compilado um projeto na pasta build.\
+O projeto depois de gerado para produção tende a apresentar uma melhor performance e velocidade.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# O projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## O projeto está disponível para acesso no link abaixo
+##### https://desenho-mapa.web.app/
 
-### `yarn eject`
+O projeto frontend está hospedado no servidor firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Técnologias usadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Firebase Hosting
+### Reactjs
+### Materializa
+### axios
+### react-google-maps
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Imagens do Projeto
 
-## Learn More
+![image](https://user-images.githubusercontent.com/48225849/119397239-37b5f300-bcac-11eb-9d09-9d9cde9bb208.png)
+![image](https://user-images.githubusercontent.com/48225849/119397296-4e5c4a00-bcac-11eb-8e22-0ec9e90c4958.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
